@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #FAFAFA;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#conteudo {
+align-items: center;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+}
+
+#primeiro-lado-esquerdo {
+
+}
+
+#primeiro-lado-direito {
+display: block !important;
+clear: both !important;
+margin-left: 20px;
+	background: #ffffff;
+	border:1px solid #ddd;
+	padding: 20px;
+}
+
+#segundo-lado-direito {
+
+}
+
+#logos-app {
+
+}
+
+footer a, p { 
+	color:#878787;
+	font-size:12px;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+input {
+	width: 100%;
+	margin-bottom: 10px;
+	height: 30px;
+
+}
+
+.hide-phone {
+	
+}
+
+.btn-login {
+	background: #0095f6;
+	color:#ffffff;
+	border:0;
+	height: 25px;
+}
+
+.linha {
+	
+}
+
+.esqueceu {
+	
+}
+
+.cad {
+	color:#0095f6;
+	border:0;
+	height: 25px;
+	text-decoration: none;	
+}
+
+.footer-menu {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.rodape {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;	
+}
+
+
+h4 {
+  overflow: hidden;
+  text-align: center;
+  color: #BBBBBB;
+}
+
+h4:before,
+h4:after {
+  background-color: #ddd;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+
+h4:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h4:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 650px) {
+.hide-phone{display:none;}
+#primeiro-lado-direito { margin: 20px;}
+}
